@@ -1,0 +1,37 @@
+/* Slider */
+.slider .indicators .indicator-item.active {
+    background-color: #F7BE15;
+}
+
+/* Carousel */
+.carousel .carousel-item>
+        img {
+            height: 360px;
+}
+
+/* Text Styles */
+.white2-text {
+    color: black !important;
+}
+
+.text-primary{
+    color: black;
+}
+
+/* Buttons */
+.btn, .btn-large, .btn-small {
+    background-color: #F7BE15;
+}
+
+/* Side Nav */
+.sidenav {
+    background-color: #F7BE15;
+}
+
+.sidenav li>a {
+    color: darkcyan;
+}
+
+.sidenav li>a>i.material-icons {
+    color: darkcyan;
+}
