@@ -20,6 +20,12 @@ document.addEventListener('keypress' ,function(e){
 	}
 );
 
+//Initial image
+let img = document.createElement('img');
+img.setAttribute('class', 'img-fluid');
+img.setAttribute('style', 'max-height: 50%; max-width: 50%');
+img.setAttribute('src', 'images/tesda.png');
+document.getElementById("memesGoesHere").appendChild(img);
 
 //This Function fetch random images(memes) using the API
 //This is a function declaration
