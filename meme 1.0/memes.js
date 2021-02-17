@@ -5,6 +5,7 @@ function dark(){
 };
 
 document.querySelector("#dark").addEventListener('click' ,dark)
+document.querySelector("#darkSide").addEventListener('click' ,dark)
 
 
 //When the button(btn-danger) is click it runs the function memeIt
