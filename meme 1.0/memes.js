@@ -1,5 +1,15 @@
+//Dark Mode
+//By using .setattribute on the body and adding darker background color
+function dark(){
+	document.body.setAttribute('style', 'background-color: #121212')
+};
+
+document.querySelector("#dark").addEventListener('click' ,dark)
+
+
 //When the button(btn-danger) is click it runs the function memeIt
 document.querySelector("#clickMe").addEventListener('click' ,memeIt)
+
 
 //Spacebar is also assign to press the button
 document.addEventListener('keypress' ,function(e){
